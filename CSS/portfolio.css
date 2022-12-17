@@ -21,7 +21,7 @@ body{
 }
  /* Jumbotron */
  .jumbotron{
-    background-image: url(../images/background\ image.jpg);
+    background-image:linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.5)), url(../images/background\ image.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,6 +59,23 @@ body{
   }
   .card {
     margin: 0 auto;
+    cursor: pointer;
   }
-  
+.card a{
+    display: block;
+    height: 100%;
+    width: 35rem;
+}
  
+/* COntact CSS Style */
+.contact-links{
+    background-color: blue;
+    padding:10px;
+    text-align: center;
+}
+
+.contact-links a i{
+    display: inline-block;
+    color: white;
+    padding: 0 20px;
+}
