@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 body{
     font-family: 'Roboto', sans-serif;
     background-color: aliceblue;
@@ -36,9 +39,26 @@ body{
   }
   .jumboCopy img {
     width: 200px;
-    border-radius: 100px;
   }
   .jumboCopy h1, .lead {
     font-weight: 400;
   }
+
+  /* About Me CSS style */
+#about p{
+    padding: 0 25px;
+    text-align: justify;
+}
+
+/* My Works CSS style */
+#myWorks h2{
+    margin-bottom: 50px;
+}
+.cardContainer {
+    margin-bottom: 15px;
+  }
+  .card {
+    margin: 0 auto;
+  }
   
+ 
