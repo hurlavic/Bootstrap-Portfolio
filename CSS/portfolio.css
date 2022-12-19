@@ -28,7 +28,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 25px)
+    height: calc(100vh - 25px);
+    width: 100%;
  }
  .jumboCopy {
     width: 70%;
