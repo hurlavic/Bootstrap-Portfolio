@@ -1,5 +1,6 @@
-html {
+* {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
 body{
     font-family: 'Roboto', sans-serif;
@@ -41,7 +42,8 @@ body{
   .jumboCopy img {
     width: 200px;
   }
-  .jumboCopy h1, .lead {
+  .jumboCopy h1,
+  .jumboCopy p {
     font-weight: 400;
   }
 
@@ -69,7 +71,7 @@ body{
     width: 35rem;
 }
  
-/* COntact CSS Style */
+/* Contact CSS Style */
 .contact-links{
     background-color: blue;
     padding:10px;
@@ -81,8 +83,24 @@ body{
     color: white;
     padding: 0 20px;
 }
-@media (min-width:600px) {
- .lead {
-  width: 8rem;
+
+/* Responsive CSS */
+@media only screen and (max-width:770px) {
+ .jumboCopy h1{
+  font-size: 35px;
  }
+
+}
+
+
+@media only screen and (max-width: 370px){
+  .jumboCopy h1 {
+    font-size:25px;
+  }
+  .jumboCopy p{
+    font-size:x-small;
+  }
+  .jumboCopy img{
+    width: 150px;
+  }
 }
