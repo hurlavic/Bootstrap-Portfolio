@@ -65,12 +65,17 @@ body{
     margin: 0 auto;
     cursor: pointer;
   }
-.card a{
-    display: block;
-    height: 100%;
-    width: 35rem;
+  .card-body p{
+    font-size: smaller;
+   }
+.card-body a{
+   font-size: 20px;
 }
  
+/* Skill CSS */
+#flush-list li{
+  background-color: aliceblue;
+}
 /* Contact CSS Style */
 .contact-links{
     background-color: blue;
@@ -89,6 +94,9 @@ body{
  .jumboCopy h1{
   font-size: 35px;
  }
+ /* .card-body p{
+  font-size: smaller;
+ } */
 
 }
 
